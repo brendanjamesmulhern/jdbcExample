@@ -50,9 +50,9 @@ public class DemoApplication implements CommandLineRunner {
 				.forEach(employee -> System.out.println(employee.toString()));
 
 		//truncate the table
-		jdbcTemplate.execute("TRUNCATE TABLE employees;");
+//		jdbcTemplate.execute("TRUNCATE TABLE employees;");
 		//delete the table
-		jdbcTemplate.execute("DROP TABLE employees");
+//		jdbcTemplate.execute("DROP TABLE employees");
 	}
 
 }
